@@ -23,7 +23,7 @@ public class MovingAverage {
 							movingaverage_weight_array[2] = weight_week3;
 							movingaverage_weight_array[3] = weight_week4;
 							movingaverage_weight_array[4] = weight_week5;
-							
+							//À¬»øµÄ´úÂë°¡¡£
                        Double inaccuracy=caculatePredictValueArray( weekDemandArray,movingaverage_weight_array,false);
                        String weight_string=weight_week1+","+weight_week2+","+weight_week3+","+weight_week4+","+weight_week5+",";
                        inaccuracy_array.put(weight_string,inaccuracy);
