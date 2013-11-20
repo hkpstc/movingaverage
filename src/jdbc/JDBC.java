@@ -14,7 +14,7 @@ public class JDBC {
             /**
              * ∂¡»°≈‰÷√
              * @return
-             */
+             */ 
 	       public static Connection ConnectToOralce_TPM(){
 	    	   Connection conn=null;
 	    	   try {
