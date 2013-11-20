@@ -13,6 +13,6 @@ public class FormatConvertUtil {
 		if (doubleValue != null) {
 			stringValue = doubleValue.toString();
 		}
-		return stringValue;
+		return stringValue; 
 	}
 }
